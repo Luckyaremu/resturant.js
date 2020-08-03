@@ -8,7 +8,6 @@ body {
     font-family: 'Baloo Chettan 2', cursive;
     line-height: 1.4;
 }
-
 .nav-ul{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -29,7 +28,12 @@ body {
     background-size: cover; 
     background-attachment: fixed;
 }
-
+@media screen and (max-width: 300px) {
+    .header {
+        display: flex;
+        background-size: cover;
+    }
+}
 .head{
     display: flex;
     flex-direction: column;
@@ -180,6 +184,13 @@ body {
     background-attachment: fixed;
 }
 
+@media screen and (max-width: 300px) {
+    .menu-image {
+        display: flex;
+        background-size: cover;
+    }
+}
+
 .menu-text{
     min-height: 80vh;
     align-items: center;
@@ -298,7 +309,12 @@ body {
         grid-template-columns: 1fr 1fr;
     }
 }
-
+@media screen and (max-width: 300px) {
+    .number {
+        display: flex;
+        background-size: cover;
+    }
+}
 @media screen and (min-width: 992px) {
     #numbers{
         grid-template-columns: repeat(4, 1fr);
@@ -312,7 +328,7 @@ body {
 .food-container{
     max-width: 90vw;
     margin: 0 auto;
-    height: 1500px;
+    
 }
 
 .food-card{
@@ -420,6 +436,10 @@ body {
    -o-transition: all 0.3s ease-in-out;
 }
 
+.food-img{
+    width: 100%;
+}
+
 .food-btn:hover{
     color: orange;
     background: white;
@@ -435,6 +455,13 @@ body {
     }
 }
 
+@media screen and (max-width: 299px) {
+    .food-card img{
+        display: flex;
+        width: 20%;
+        height: 20%;
+    }
+}
 @media screen and (min-width: 992px) {
     .food-container{
         display: grid;
@@ -456,6 +483,10 @@ body {
     width:  100%;
     opacity: 1;
     transition: opacity 2s ease;
+    -webkit-transition: opacity 2s ease;
+    -moz-transition: opacity 2s ease;
+    -ms-transition: opacity 2s ease;
+    -o-transition: opacity 2s ease;
 }
 
 .gallery-item img:hover{
@@ -471,7 +502,15 @@ body {
 
 @media screen and (min-width: 992px) {
     #gallery-center{
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media screen and (max-width: 299px) {
+    .gallery-item img{
+        display: grid;
+        width: 20%;
+        height: 20%;
     }
 }
 
