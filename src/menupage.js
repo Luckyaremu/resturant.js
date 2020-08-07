@@ -8,16 +8,13 @@ const renderMenuPage = (() => {
     menuContainer.setAttribute("id", "menuContainer");
     
     let menuItems = [];
-
-    menuItems.push({name: "Eggs", price: "5"});
-    menuItems.push({name: "Bagel", price: "6"});
-    menuItems.push({name: "Oats", price: "5"});
-    menuItems.push({name: "Donut", price: "7"});
-    menuItems.push({name: "Fruit Cup", price: "5"});
-    menuItems.push({name: "Omelette", price: "9"});
-    menuItems.push({name: "Pancake", price: "11"});
-    menuItems.push({name: "Waffle", price: "12"});
-    menuItems.push({name: "Pork Chop", price: "26"});
+    <img src="close-up-photo-of-food-3655916.jpg" alt="" width="500" height="600"></img>
+    menuItems.push({name: "Salmon fish", price: "N 5,000" });
+    <img src="pepperoni-pizza-with-basil-leaves-1260968.jpg" alt="" width="500" height="600"></img>
+    menuItems.push({name: "Fresh pizza", price: "N 3,000"});
+    <img src="salmon-and-green-vegetable-salad-3662189.jpg" alt="" width="500" height="600"></img>
+    menuItems.push({name: "Salmon fish and vegetables", price: "N 10,000"});
+    
 
     menuItems.forEach((item)=> {
         let listItem = document.createElement("li");

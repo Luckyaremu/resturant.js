@@ -6,7 +6,7 @@ const renderContactPage = (() => {
 
     let contactContainer = document.createElement("div");
     contactContainer.setAttribute("id", "contactContainer");
-    contactContainer.innerHTML = `<p>Name: Regular Business Owner</p><p>Phone: 123-456-7890</p><p>Email: fakebusinessaccount@email.provider</p>`;
+    contactContainer.innerHTML = `<p>Name: Rhosy kitchen</p><p>Phone: +2348032236791 </p><p>Email: rhosy_kitchen@gmail.com</p>`;
 
     content.appendChild(contactContainer);
 });
