@@ -22,5 +22,4 @@ const renderHomepage = (() => {
     image.setAttribute('src', 'table.jpg');
     homebox.appendChild(image);
 });
-
 export {renderHomepage};

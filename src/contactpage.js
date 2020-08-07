@@ -10,5 +10,5 @@ const renderContactPage = (() => {
 
     content.appendChild(contactContainer);
 });
-
+document.body.style.background = "#f3f3f3 url('pexels-negative-space-33999.jpg') no-repeat right top";
 export {renderContactPage};
