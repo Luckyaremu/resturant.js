@@ -8,11 +8,16 @@ const renderMenuPage = (() => {
     menuContainer.setAttribute("id", "menuContainer");
     
     let menuItems = [];
-    <img src="close-up-photo-of-food-3655916.jpg" alt="" width="500" height="600"></img>
+    let image = document.createElement('img');
+    homebox.appendChild(image);
+
+    image.setAttribute('src', 'close-up-photo-of-food-3655916.jpg');
     menuItems.push({name: "Salmon fish", price: "N 5,000" });
-    <img src="pepperoni-pizza-with-basil-leaves-1260968.jpg" alt="" width="500" height="600"></img>
+
+    image.setAttribute('src', 'pepperoni-pizza-with-basil-leaves-1260968.jpg');
     menuItems.push({name: "Fresh pizza", price: "N 3,000"});
-    <img src="salmon-and-green-vegetable-salad-3662189.jpg" alt="" width="500" height="600"></img>
+
+    image.setAttribute('src', 'salmon-and-green-vegetable-salad-3662189.jpg');
     menuItems.push({name: "Salmon fish and vegetables", price: "N 10,000"});
     
 
