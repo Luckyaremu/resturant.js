@@ -27,10 +27,7 @@ const renderMenuPage = (() => {
         listItem.innerHTML = `<p class="itemName">${item.name}</p><p class="itemPrice">${item.price}</p><br>`;
         menuContainer.appendChild(listItem);
     });
-
-
     content.appendChild(menuContainer);
 });
 document.body.style.background = "#f3f3f3 url('pexels-lisa-fotios-1279330.jpg') no-repeat right top";
 export {renderMenuPage};
-
