@@ -1,8 +1,14 @@
 {
   "name": "resturant",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "esrecurse": "^4.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -16,9 +22,5 @@
     "url": "https://github.com/Luckyaremu/resturant.js/issues"
   },
   "homepage": "https://github.com/Luckyaremu/resturant.js#readme",
-  "devDependencies": {
-    "@babel/cli": "^7.10.5",
-    "@babel/core": "^7.10.5",
-    "@babel/preset-env": "^7.10.4"
-  }
+  "description": ""
 }
