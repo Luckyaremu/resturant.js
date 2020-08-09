@@ -1,6 +1,6 @@
 # Restaurant Page
 
-![screenshot](dist\assets\screenshot.jpg)
+![screenshot](/screenshot.jpg)
 
 In this project I:
 
@@ -16,7 +16,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here](https://raw.githack.com/MuriloRoque/restaurant_page/restaurant/dist/index.html)
+[Click here]()
 
 ## Getting Started
 
