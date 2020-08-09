@@ -16,7 +16,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here]()
+[Click here](https://luckyaremu.github.io/resturant.js/)
 
 ## Getting Started
 
