@@ -3,10 +3,10 @@ const renderContactPage = (() => {
     while(content.lastChild){
         content.lastChild.remove();
     }
-
+    
     let contactContainer = document.createElement("div");
     contactContainer.setAttribute("id", "contactContainer");
-    contactContainer.innerHTML = `<p>Name: Rhosy kitchen</p><p>Phone: +2348032236791 </p><p>Email: rhosy_kitchen@gmail.com</p>`;
+    contactContainer.innerHTML = `<p>Name: Rhosy Kitchen </p><p>Phone: +2348032236791 </p><p>Email: rhosy_kitchen@gmail.com</p>`;
 
     content.appendChild(contactContainer);
 });
