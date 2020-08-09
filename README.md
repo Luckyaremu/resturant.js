@@ -16,7 +16,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here](https://luckyaremu.github.io/resturant.js/)
+[Click here](https://lucid-edison-c3002b.netlify.app/)
 
 ## Getting Started
 
