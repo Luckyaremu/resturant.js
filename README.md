@@ -16,7 +16,7 @@ In this project I:
 
 ## Live Demo
 
-[Click here](https://lucid-edison-c3002b.netlify.app/)
+[Click here](https://rawcdn.githack.com/Luckyaremu/resturant.js/61587ccdc43a0ab1b4064e342de567fbe8f6bb01/dist/index.html)
 
 ## Getting Started
 
