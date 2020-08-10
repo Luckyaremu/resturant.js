@@ -15,7 +15,7 @@ const renderHomepage = (() => {
     homebox.appendChild(header);
 
     let review = document.createElement('p');
-    review.innerText = `'Rhosy Restaurant is the best resturant you can find around lekki axis of lagos state, natural and sea foods are avalaible at a relatively good price, shop with us and get 20% discount on your mail ticket  @rhosy_alex'`;
+    review.innerText = `'Rhosy kitchen is the best resturant you can find around lekki axis of lagos state, natural and sea foods are avalaible at a relatively good price, shop with us and get 20% discount on your mail ticket  @rhosy_alex'`;
     homebox.appendChild(review);
 
     let image = document.createElement('img');
