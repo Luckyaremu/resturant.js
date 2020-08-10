@@ -22,9 +22,9 @@ In this project I:
 
 - Clone the project to your local machine;
 - `cd` into the project directory;
-- Run `npm install` to install the necessary modules;
-- Run `npm run build`
-- Run `npm run serve`.
+- Run npm install to install the necessary modules;
+- Run npm run build
+- Run npm run serve.
 
 ## Author
 
