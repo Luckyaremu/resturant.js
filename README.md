@@ -23,7 +23,7 @@ In this project I:
 - Clone the project to your local machine;
 - `cd` into the project directory;
 - Run `npm install` to install the necessary modules;
-- Run `npm run serve`, the page will automatically load on [localhost:8080](localhost:8080).
+- Run `npm run serve`.
 
 ## Author
 

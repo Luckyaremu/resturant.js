@@ -9,7 +9,7 @@ const renderMenuPage = (() => {
     
     let menuItems = [];
 
-    menuItems.push({name: "Family box of pizza", price: "N 5,000"});
+    menuItems.push({name: "Family box  of pizza", price: "N 5,000"});
     menuItems.push({name: "Fruit perfeit", price: "N 1,500"});
     menuItems.push({name: "Vegetables and pounded yam", price: "N 3,000"});
 
