@@ -1,0 +1,98 @@
+html,body {
+    margin: 0;
+    padding: 0;
+}
+
+#homebox{
+    background-color: rgba(0,0,0, 0.75);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3.25%;
+    width: 75%;
+    border-radius: 15px;
+    text-align: center;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 1em;
+
+    display: grid;
+    gap: 1em;
+
+}
+
+#homebox img{
+    grid-row: 2;
+    width: 100%;
+    justify-self: center;
+    border-radius: 15px;
+}
+
+#homebox h1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+#homebox p{
+    grid-row: 2;
+    padding-left: 5rem;
+    padding-right: 5rem;
+    align-self: center;
+}
+
+header ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: rgba(0,0,0, 0.75);
+}
+header ul li{
+    float: left;
+}
+header ul li button{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background: none;
+    border: none;
+    font-size: 16pt;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#menuContainer{
+    list-style-type: none;
+    margin: auto;
+    padding: 15px;
+    overflow: hidden;
+    color: white;
+    width: 75%;
+    background-color: rgba(0,0,0, 0.75);
+    border-radius: 15px;
+    font-size: large;
+    margin-top: 3.25%;
+}
+
+#contactContainer{
+    padding: 15px;
+    color: white;
+    width: 75%;
+    background-color: rgba(0,0,0, 0.75);
+    border-radius: 15px;
+    font-size: large;
+    margin-top: 3.25%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.itemName{
+    float:left;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.itemPrice{
+    float: right;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
